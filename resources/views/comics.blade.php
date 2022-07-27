@@ -1,5 +1,8 @@
 @section('page_content')
 
-@dump($comics);
+<h1>ciao</h1>
+
+{{-- @dump($comics); --}}
 
 @endsection
+
