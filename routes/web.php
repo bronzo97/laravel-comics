@@ -17,4 +17,11 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/comics', function () {
+    $comics = config("comics");
+
+    return view('comics', ["comics" => $comics
+    ]);
+})->name("comics");
+
 

@@ -9,6 +9,7 @@
 </head>
 <body>
     @include('header')
+    @yield('page_content')
     @include('blue-section')
     @include('footer')
 </body>
