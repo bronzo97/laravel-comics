@@ -1,0 +1,30 @@
+.footer-bg {
+    height: 400px;
+    width: 100%;
+    background-image: url(/images/footer-bg.jpg);
+    padding: 2rem;
+
+    h4 {
+        color: #fff
+    }
+
+    li {
+        color: #757575;
+    }
+}
+
+.follow-us {
+    background-color: #303030;
+
+    h2 {
+        color: #1E82F6;
+    }
+
+    .btn {
+        border: 2px solid #1E82F6;
+        color: white;
+        border-radius: 0;
+    }
+}
+
+
