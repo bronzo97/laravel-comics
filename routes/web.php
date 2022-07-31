@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('layouts.app');
 });
 
-Route::get('/comics', function () {
+Route::get('/', function () {
     $comics = config("comics");
 
     return view('partials.comics', ["comics" => $comics
